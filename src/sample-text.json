@@ -1,0 +1,133 @@
+subscription spotUpdate{
+  onUpdateSpot{
+    id
+    position
+    type
+    occupied
+    version
+    row{
+      id
+      level
+      position
+      garage {
+        id
+        name
+      }
+    }
+  }
+}
+
+# mutation updateSpot($usi:UpdateSpotInput! ){
+#   updateSpot(input:$usi ){
+#     id
+#     occupied
+#     version
+#   }
+# }
+# { "usi": {
+# 	"id": "057e13c3-d7b5-4113-990e-a25ce43aade7",
+# 	"occupied": false
+# 	}
+# }
+
+
+
+# mutation CreateGarage ($cgi: CreateGarageInput!){
+#   createGarage(input: $cgi){
+#     id
+#     name
+#   }
+# }
+
+# mutation AddRowsToGarage($r: CreateGarageRowInput!){
+#   createGarageRow(input: $r){
+#     id
+#     level
+#     position
+#   }
+# }
+
+# mutation AddSpotsToPark($s: CreateSpotInput!){
+#   createSpot(input: $s){
+#     id
+#     position
+#     type
+#     occupied
+#     version
+#   }
+# }
+
+query Garages{
+  listGarages{
+    items{
+      id
+      name
+      rows {
+        nextToken
+        items{
+          id
+          level
+          position
+          spots{
+            items {
+              id
+            	position
+            	type
+            	occupied
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+# Welcome!
+#
+# This is an in-browser tool for writing, validating, and
+# testing GraphQL queries.
+#
+# An example query named "GetPost" might look like:
+#
+#     query GetPost {
+#       singlePost(id: 123) {
+#         id
+#         title
+#       }
+#     }
+#
+# An example mutation named "PutPost" might look like:
+#
+#     mutation PutPost {
+#       putPost(id: 123, title: "Hello, world!") {
+#         id
+#         title
+#       }
+#     }
+#
+# Keyboard shortcuts:
+#
+#  Prettify Query:  Ctrl+Shift+P (also removes comments)
+#       Run Query:  Ctrl+Enter   (or press the play button above)
+#   Auto Complete:  Ctrl+Space   (or just start typing)
+#
+
+# {"cgi": 
+#   {
+#   "name": "Vine Street Tertiary Garage"
+#   }
+# }
+
+# {"r": {
+#   "level":0,
+#   "position":0,
+#   "garageRowGarageId":"69299369-cd42-4109-8bb6-b88f9630ee9c"
+# }}
+# {"s": {
+# "position": 15,
+#   "type": "large",
+#   "occupied": false,
+#   "spotRowId": "894f04c3-8685-480e-be71-52d009fd9c58",
+#   "version":1
+  
+# }}

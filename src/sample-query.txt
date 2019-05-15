@@ -1,0 +1,461 @@
+{
+  "data": {
+    "listGarages": {
+      "items": [
+        {
+          "id": "da6d0ce3-4010-4925-9b3c-962f26f15130",
+          "name": "Broadway Street Secondary Garage",
+          "rows": {
+            "nextToken": null,
+            "items": [
+              {
+                "id": "a959161f-74e0-4e61-872e-c0ce09a59013",
+                "level": 0,
+                "position": 0,
+                "spots": {
+                  "items": [
+                    {
+                      "id": "057e13c3-d7b5-4113-990e-a25ce43aade7",
+                      "position": 1,
+                      "type": "large",
+                      "occupied": false
+                    },
+                    {
+                      "id": "ac45c73b-a2c5-4a07-8287-73bf9a650e81",
+                      "position": 2,
+                      "type": "large",
+                      "occupied": false
+                    },
+                    {
+                      "id": "1c74c723-54f2-427e-afe3-46c9de31b688",
+                      "position": 5,
+                      "type": "large",
+                      "occupied": false
+                    },
+                    {
+                      "id": "06b61e85-2782-4095-a4d1-018139dd53f5",
+                      "position": 6,
+                      "type": "compact",
+                      "occupied": false
+                    },
+                    {
+                      "id": "4aed759f-c488-4836-94c4-1f9f7d2939cc",
+                      "position": 0,
+                      "type": "large",
+                      "occupied": false
+                    },
+                    {
+                      "id": "35563e47-02f2-4851-8c9c-aa6395724664",
+                      "position": 4,
+                      "type": "large",
+                      "occupied": false
+                    },
+                    {
+                      "id": "521fd91b-5d5b-4526-b6c2-7d289b6b9185",
+                      "position": 8,
+                      "type": "compact",
+                      "occupied": false
+                    },
+                    {
+                      "id": "ec44da8a-99d5-405a-82b6-e89cb4664d96",
+                      "position": 7,
+                      "type": "compact",
+                      "occupied": false
+                    },
+                    {
+                      "id": "39c060f8-57d2-4815-96d1-d32d92fc6cd8",
+                      "position": 9,
+                      "type": "motorcycle",
+                      "occupied": false
+                    },
+                    {
+                      "id": "e5555f93-9e45-4847-9c27-6286d7e20efe",
+                      "position": 3,
+                      "type": "large",
+                      "occupied": false
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "1",
+          "name": "Main Street Primary Garage",
+          "rows": {
+            "nextToken": null,
+            "items": [
+              {
+                "id": "2d1e2383-1490-4d41-8c9a-863774140422",
+                "level": 0,
+                "position": 1,
+                "spots": {
+                  "items": [
+                    {
+                      "id": "31dc5e12-07e2-4c22-b894-16799aba8585",
+                      "position": 7,
+                      "type": "compact",
+                      "occupied": false
+                    },
+                    {
+                      "id": "e440932e-91f7-44ad-98cf-5a9f1bb19b9f",
+                      "position": 6,
+                      "type": "large",
+                      "occupied": false
+                    },
+                    {
+                      "id": "f97b6737-5639-491c-87e9-0902fb237a20",
+                      "position": 1,
+                      "type": "large",
+                      "occupied": false
+                    },
+                    {
+                      "id": "300d3974-ee3c-40f0-8d05-31895ee2d4a2",
+                      "position": 5,
+                      "type": "large",
+                      "occupied": false
+                    },
+                    {
+                      "id": "86066c7a-51f6-4f48-ac93-11afd73f6d43",
+                      "position": 4,
+                      "type": "large",
+                      "occupied": false
+                    },
+                    {
+                      "id": "a4caea6f-827b-4d41-b984-22b9b6f6e9f0",
+                      "position": 3,
+                      "type": "large",
+                      "occupied": false
+                    },
+                    {
+                      "id": "045c675a-003a-4d88-8424-de66972d71f3",
+                      "position": 2,
+                      "type": "large",
+                      "occupied": false
+                    },
+                    {
+                      "id": "d0c6f70e-b9b1-4b33-a179-0f0640897e36",
+                      "position": 0,
+                      "type": "motorcycle",
+                      "occupied": false
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "e25f1478-2de3-4b06-8774-04e18a956150",
+                "level": 2,
+                "position": 1,
+                "spots": {
+                  "items": [
+                    {
+                      "id": "ef20fb4a-21a4-484e-b94a-9120f65c72ee",
+                      "position": 3,
+                      "type": "motorcycle",
+                      "occupied": false
+                    },
+                    {
+                      "id": "9fc84d74-f672-47d9-9fa4-e915d1c7b498",
+                      "position": 1,
+                      "type": "large",
+                      "occupied": false
+                    },
+                    {
+                      "id": "db2a69dc-436c-41c5-9049-3da14d0a9cfa",
+                      "position": 0,
+                      "type": "motorcycle",
+                      "occupied": false
+                    },
+                    {
+                      "id": "68aec5ef-2194-46a0-b2ec-73023015b4ce",
+                      "position": 2,
+                      "type": "motorcycle",
+                      "occupied": false
+                    },
+                    {
+                      "id": "a60693e9-08ed-491e-935a-72527a5ee612",
+                      "position": 2,
+                      "type": "large",
+                      "occupied": false
+                    },
+                    {
+                      "id": "bc545e64-2f92-40ed-8e5e-c7d3344a0e4c",
+                      "position": 8,
+                      "type": "large",
+                      "occupied": false
+                    },
+                    {
+                      "id": "d3a73f90-48b1-4786-9845-fa167cf82d65",
+                      "position": 0,
+                      "type": "large",
+                      "occupied": false
+                    },
+                    {
+                      "id": "8c783e38-ed92-4f69-beaa-b748e504928a",
+                      "position": 6,
+                      "type": "large",
+                      "occupied": false
+                    },
+                    {
+                      "id": "785ed6d2-c0da-4a6a-a9c7-74c7ce073df3",
+                      "position": 10,
+                      "type": "large",
+                      "occupied": false
+                    },
+                    {
+                      "id": "c9b8bbe7-44ac-45a1-a3d4-0e0cca9f11c0",
+                      "position": 1,
+                      "type": "motorcycle",
+                      "occupied": false
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "4f1cd8cb-8b55-4d03-9f70-6c6d5db5f192",
+                "level": 0,
+                "position": 0,
+                "spots": {
+                  "items": []
+                }
+              },
+              {
+                "id": "02d9c016-cdf4-48e8-a592-a1abc3fdc511",
+                "level": 2,
+                "position": 0,
+                "spots": {
+                  "items": []
+                }
+              },
+              {
+                "id": "40fa62d3-a20f-4f3b-8f20-55bf395fa4da",
+                "level": 3,
+                "position": 0,
+                "spots": {
+                  "items": [
+                    {
+                      "id": "78053e10-64c7-489e-8917-e7abe9e58fb4",
+                      "position": 4,
+                      "type": "large",
+                      "occupied": false
+                    },
+                    {
+                      "id": "572fa624-400b-42e0-8e55-08b8028c46cf",
+                      "position": 5,
+                      "type": "compact",
+                      "occupied": false
+                    },
+                    {
+                      "id": "d858982e-3346-47ab-a827-f5ee635572d2",
+                      "position": 1,
+                      "type": "large",
+                      "occupied": false
+                    },
+                    {
+                      "id": "d5a0b4ae-0bc0-4de5-8998-57ee0c6d55ae",
+                      "position": 0,
+                      "type": "compact",
+                      "occupied": false
+                    },
+                    {
+                      "id": "108385ab-76e3-4dd0-bd72-e3c36f611d3f",
+                      "position": 4,
+                      "type": "compact",
+                      "occupied": false
+                    },
+                    {
+                      "id": "1351147b-3972-4496-a0b1-dd344d312204",
+                      "position": 3,
+                      "type": "compact",
+                      "occupied": false
+                    },
+                    {
+                      "id": "fc746163-f5e6-4698-b5b5-3e37bcbdef1f",
+                      "position": 0,
+                      "type": "compact",
+                      "occupied": false
+                    },
+                    {
+                      "id": "1b35e6bd-7cc0-447a-96f3-bdd5071e90a4",
+                      "position": 3,
+                      "type": "large",
+                      "occupied": false
+                    },
+                    {
+                      "id": "e63641cd-1f51-4cd4-9c40-57deff298ec7",
+                      "position": 8,
+                      "type": "large",
+                      "occupied": false
+                    },
+                    {
+                      "id": "c5c32e08-9ecc-4641-ad69-4f10d0b93a3e",
+                      "position": 2,
+                      "type": "large",
+                      "occupied": false
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "f4b7cb46-3224-4a59-b366-be164b5b12b1",
+                "level": 1,
+                "position": 0,
+                "spots": {
+                  "items": []
+                }
+              },
+              {
+                "id": "894f04c3-8685-480e-be71-52d009fd9c58",
+                "level": 1,
+                "position": 1,
+                "spots": {
+                  "items": [
+                    {
+                      "id": "4653ad64-c499-4836-9304-c82e3723018c",
+                      "position": 12,
+                      "type": "large",
+                      "occupied": false
+                    },
+                    {
+                      "id": "559b1c03-4215-41b4-83d9-3e12fdb9a0fd",
+                      "position": 4,
+                      "type": "large",
+                      "occupied": false
+                    },
+                    {
+                      "id": "24ab18ae-73d3-402a-8e16-b45e3abfc916",
+                      "position": 2,
+                      "type": "large",
+                      "occupied": false
+                    },
+                    {
+                      "id": "fab88179-cdf7-48d0-a2b7-677cea7195c1",
+                      "position": 6,
+                      "type": "large",
+                      "occupied": false
+                    },
+                    {
+                      "id": "9a885069-db3c-43c2-99df-496806430ebc",
+                      "position": 3,
+                      "type": "large",
+                      "occupied": false
+                    },
+                    {
+                      "id": "01d2eafb-a6cb-4a69-af05-3c1480a8eab2",
+                      "position": 10,
+                      "type": "large",
+                      "occupied": false
+                    },
+                    {
+                      "id": "45f7b35f-ad50-4af8-9cc6-d8c9ce2c92ff",
+                      "position": 0,
+                      "type": "compact",
+                      "occupied": false
+                    },
+                    {
+                      "id": "b838809c-6e0f-48a0-b42a-1b4ea0c36842",
+                      "position": 1,
+                      "type": "motorcycle",
+                      "occupied": false
+                    },
+                    {
+                      "id": "90b72ac0-8001-49a1-9ee9-bd6370511b27",
+                      "position": 14,
+                      "type": "large",
+                      "occupied": false
+                    },
+                    {
+                      "id": "9371353e-dbca-4da7-9775-27cff29c1b4f",
+                      "position": 8,
+                      "type": "compact",
+                      "occupied": false
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "69299369-cd42-4109-8bb6-b88f9630ee9c",
+          "name": "Vine Street Tertiary Garage",
+          "rows": {
+            "nextToken": null,
+            "items": [
+              {
+                "id": "5862bb3a-7026-45d2-bd38-3d350862298e",
+                "level": 0,
+                "position": 0,
+                "spots": {
+                  "items": [
+                    {
+                      "id": "8ca48704-781e-40d2-9640-8f0ccafa3f57",
+                      "position": 6,
+                      "type": "large",
+                      "occupied": false
+                    },
+                    {
+                      "id": "3b795380-7d1f-41d6-beb3-85a259ad504a",
+                      "position": 11,
+                      "type": "motorcycle",
+                      "occupied": false
+                    },
+                    {
+                      "id": "f3f12a0f-e60c-48de-a95b-193f42a00890",
+                      "position": 3,
+                      "type": "large",
+                      "occupied": false
+                    },
+                    {
+                      "id": "f90f58f5-5ced-4fed-8eaa-7f997bf17ad3",
+                      "position": 4,
+                      "type": "large",
+                      "occupied": false
+                    },
+                    {
+                      "id": "c69513ff-0a6a-4894-91ce-260a1e3aeff1",
+                      "position": 10,
+                      "type": "compact",
+                      "occupied": false
+                    },
+                    {
+                      "id": "3e764626-f672-4691-a872-9704a9b087a9",
+                      "position": 8,
+                      "type": "large",
+                      "occupied": false
+                    },
+                    {
+                      "id": "864f1728-41ad-4404-abfc-fd29c5e7855d",
+                      "position": 1,
+                      "type": "compact",
+                      "occupied": false
+                    },
+                    {
+                      "id": "2ed49795-ed09-4061-8951-827efa2a011d",
+                      "position": 9,
+                      "type": "compact",
+                      "occupied": false
+                    },
+                    {
+                      "id": "5ea927a6-c4b1-498a-bb9d-32f130b09bc3",
+                      "position": 7,
+                      "type": "large",
+                      "occupied": false
+                    },
+                    {
+                      "id": "f3633132-203b-468d-853c-e9bd2a6c2ab4",
+                      "position": 5,
+                      "type": "large",
+                      "occupied": false
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

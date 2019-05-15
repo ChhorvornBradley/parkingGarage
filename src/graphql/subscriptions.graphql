@@ -1,0 +1,178 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateGarage {
+  onCreateGarage {
+    id
+    name
+    rows {
+      items {
+        id
+        level
+        position
+      }
+      nextToken
+    }
+  }
+}
+subscription OnUpdateGarage {
+  onUpdateGarage {
+    id
+    name
+    rows {
+      items {
+        id
+        level
+        position
+      }
+      nextToken
+    }
+  }
+}
+subscription OnDeleteGarage {
+  onDeleteGarage {
+    id
+    name
+    rows {
+      items {
+        id
+        level
+        position
+      }
+      nextToken
+    }
+  }
+}
+subscription OnCreateGarageRow {
+  onCreateGarageRow {
+    id
+    level
+    position
+    garage {
+      id
+      name
+      rows {
+        nextToken
+      }
+    }
+    spots {
+      items {
+        id
+        position
+        type
+        occupied
+        version
+      }
+      nextToken
+    }
+  }
+}
+subscription OnUpdateGarageRow {
+  onUpdateGarageRow {
+    id
+    level
+    position
+    garage {
+      id
+      name
+      rows {
+        nextToken
+      }
+    }
+    spots {
+      items {
+        id
+        position
+        type
+        occupied
+        version
+      }
+      nextToken
+    }
+  }
+}
+subscription OnDeleteGarageRow {
+  onDeleteGarageRow {
+    id
+    level
+    position
+    garage {
+      id
+      name
+      rows {
+        nextToken
+      }
+    }
+    spots {
+      items {
+        id
+        position
+        type
+        occupied
+        version
+      }
+      nextToken
+    }
+  }
+}
+subscription OnCreateSpot {
+  onCreateSpot {
+    id
+    position
+    type
+    occupied
+    version
+    row {
+      id
+      level
+      position
+      garage {
+        id
+        name
+      }
+      spots {
+        nextToken
+      }
+    }
+  }
+}
+subscription OnUpdateSpot {
+  onUpdateSpot {
+    id
+    position
+    type
+    occupied
+    version
+    row {
+      id
+      level
+      position
+      garage {
+        id
+        name
+      }
+      spots {
+        nextToken
+      }
+    }
+  }
+}
+subscription OnDeleteSpot {
+  onDeleteSpot {
+    id
+    position
+    type
+    occupied
+    version
+    row {
+      id
+      level
+      position
+      garage {
+        id
+        name
+      }
+      spots {
+        nextToken
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+    "demo": {
+        "awscloudformation": {
+            "AuthRoleName": "parkinggarage-demo-20190512200149-authRole",
+            "UnauthRoleArn": "arn:aws:iam::364125220761:role/parkinggarage-demo-20190512200149-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::364125220761:role/parkinggarage-demo-20190512200149-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "parkinggarage-demo-20190512200149-deployment",
+            "UnauthRoleName": "parkinggarage-demo-20190512200149-unauthRole",
+            "StackName": "parkinggarage-demo-20190512200149",
+            "StackId": "arn:aws:cloudformation:us-east-2:364125220761:stack/parkinggarage-demo-20190512200149/4ed9d2b0-7512-11e9-868d-0aa0cd9d9f9c"
+        },
+        "categories": {
+            "auth": {
+                "cognitof956a9f3": {}
+            }
+        }
+    }
+}

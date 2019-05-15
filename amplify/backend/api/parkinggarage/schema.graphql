@@ -1,0 +1,26 @@
+type Garage @model {
+  id: ID!
+  name: String
+  rows: [GarageRow] @connection(name: "GarageToRows")
+}
+type GarageRow @model @searchable{
+  id: ID!
+  level: Int!
+  position: Int!
+  garage: Garage @connection(name: "GarageToRows")
+  spots: [Spot] @connection(name:"GarageRowSpots")
+}
+type Spot @model @searchable{
+  id: ID!
+  position: Int!
+  type: SpotType!
+  occupied: Boolean!
+  version: Int!
+  row: GarageRow @connection(name: "GarageRowSpots")
+}
+
+enum SpotType{
+  motorcycle
+  compact
+  large
+}

@@ -1,0 +1,178 @@
+# this is an auto generated file. This will be overwritten
+mutation CreateGarage($input: CreateGarageInput!) {
+  createGarage(input: $input) {
+    id
+    name
+    rows {
+      items {
+        id
+        level
+        position
+      }
+      nextToken
+    }
+  }
+}
+mutation UpdateGarage($input: UpdateGarageInput!) {
+  updateGarage(input: $input) {
+    id
+    name
+    rows {
+      items {
+        id
+        level
+        position
+      }
+      nextToken
+    }
+  }
+}
+mutation DeleteGarage($input: DeleteGarageInput!) {
+  deleteGarage(input: $input) {
+    id
+    name
+    rows {
+      items {
+        id
+        level
+        position
+      }
+      nextToken
+    }
+  }
+}
+mutation CreateGarageRow($input: CreateGarageRowInput!) {
+  createGarageRow(input: $input) {
+    id
+    level
+    position
+    garage {
+      id
+      name
+      rows {
+        nextToken
+      }
+    }
+    spots {
+      items {
+        id
+        position
+        type
+        occupied
+        version
+      }
+      nextToken
+    }
+  }
+}
+mutation UpdateGarageRow($input: UpdateGarageRowInput!) {
+  updateGarageRow(input: $input) {
+    id
+    level
+    position
+    garage {
+      id
+      name
+      rows {
+        nextToken
+      }
+    }
+    spots {
+      items {
+        id
+        position
+        type
+        occupied
+        version
+      }
+      nextToken
+    }
+  }
+}
+mutation DeleteGarageRow($input: DeleteGarageRowInput!) {
+  deleteGarageRow(input: $input) {
+    id
+    level
+    position
+    garage {
+      id
+      name
+      rows {
+        nextToken
+      }
+    }
+    spots {
+      items {
+        id
+        position
+        type
+        occupied
+        version
+      }
+      nextToken
+    }
+  }
+}
+mutation CreateSpot($input: CreateSpotInput!) {
+  createSpot(input: $input) {
+    id
+    position
+    type
+    occupied
+    version
+    row {
+      id
+      level
+      position
+      garage {
+        id
+        name
+      }
+      spots {
+        nextToken
+      }
+    }
+  }
+}
+mutation UpdateSpot($input: UpdateSpotInput!) {
+  updateSpot(input: $input) {
+    id
+    position
+    type
+    occupied
+    version
+    row {
+      id
+      level
+      position
+      garage {
+        id
+        name
+      }
+      spots {
+        nextToken
+      }
+    }
+  }
+}
+mutation DeleteSpot($input: DeleteSpotInput!) {
+  deleteSpot(input: $input) {
+    id
+    position
+    type
+    occupied
+    version
+    row {
+      id
+      level
+      position
+      garage {
+        id
+        name
+      }
+      spots {
+        nextToken
+      }
+    }
+  }
+}

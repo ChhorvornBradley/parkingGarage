@@ -1,0 +1,172 @@
+# this is an auto generated file. This will be overwritten
+query GetGarage($id: ID!) {
+  getGarage(id: $id) {
+    id
+    name
+    rows {
+      items {
+        id
+        level
+        position
+      }
+      nextToken
+    }
+  }
+}
+query ListGarages(
+  $filter: ModelGarageFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listGarages(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      name
+      rows {
+        nextToken
+      }
+    }
+    nextToken
+  }
+}
+query GetGarageRow($id: ID!) {
+  getGarageRow(id: $id) {
+    id
+    level
+    position
+    garage {
+      id
+      name
+      rows {
+        nextToken
+      }
+    }
+    spots {
+      items {
+        id
+        position
+        type
+        occupied
+        version
+      }
+      nextToken
+    }
+  }
+}
+query ListGarageRows(
+  $filter: ModelGarageRowFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listGarageRows(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      level
+      position
+      garage {
+        id
+        name
+      }
+      spots {
+        nextToken
+      }
+    }
+    nextToken
+  }
+}
+query GetSpot($id: ID!) {
+  getSpot(id: $id) {
+    id
+    position
+    type
+    occupied
+    version
+    row {
+      id
+      level
+      position
+      garage {
+        id
+        name
+      }
+      spots {
+        nextToken
+      }
+    }
+  }
+}
+query ListSpots(
+  $filter: ModelSpotFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listSpots(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      position
+      type
+      occupied
+      version
+      row {
+        id
+        level
+        position
+      }
+    }
+    nextToken
+  }
+}
+query SearchGarageRows(
+  $filter: SearchableGarageRowFilterInput
+  $sort: SearchableGarageRowSortInput
+  $limit: Int
+  $nextToken: Int
+) {
+  searchGarageRows(
+    filter: $filter
+    sort: $sort
+    limit: $limit
+    nextToken: $nextToken
+  ) {
+    items {
+      id
+      level
+      position
+      garage {
+        id
+        name
+      }
+      spots {
+        nextToken
+      }
+    }
+    nextToken
+  }
+}
+query SearchSpots(
+  $filter: SearchableSpotFilterInput
+  $sort: SearchableSpotSortInput
+  $limit: Int
+  $nextToken: Int
+) {
+  searchSpots(
+    filter: $filter
+    sort: $sort
+    limit: $limit
+    nextToken: $nextToken
+  ) {
+    items {
+      id
+      position
+      type
+      occupied
+      version
+      row {
+        id
+        level
+        position
+      }
+    }
+    nextToken
+  }
+}
